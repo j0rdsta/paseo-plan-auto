@@ -1,0 +1,8 @@
+{
+  "id": "paseo-plan-auto",
+  "media": [],
+  "requirements": {
+    "paseo": ">=0.11.4"
+  },
+  "name": "Plan to Auto"
+}
