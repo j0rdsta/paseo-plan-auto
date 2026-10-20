@@ -1,6 +1,8 @@
 {
   "id": "paseo-plan-auto",
-  "media": [],
+  "media": [
+    "assets/screenshot.png"
+  ],
   "requirements": {
     "paseo": ">=0.11.4"
   },
