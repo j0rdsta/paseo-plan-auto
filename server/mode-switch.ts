@@ -3,7 +3,7 @@ import { promisify } from "node:util";
 import type { PaseoApi } from "@getpaseo/client";
 
 const run = promisify(execFile);
-const PASEO = "/Applications/Paseo.app/Contents/Resources/bin/paseo";
+const PASEO = process.env.PASEO_CLI || "paseo";
 
 export async function setMode(agentId: string, mode: string) {
   await run(PASEO, ["agent", "mode", agentId, mode]);
