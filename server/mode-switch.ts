@@ -11,7 +11,6 @@ export async function setMode(agentId: string, mode: string) {
 
 // Claude Code keeps the post-ExitPlanMode mode for the rest of the turn, so restart it
 export async function restartTurn(paseo: PaseoApi, agentId: string) {
-  await run(PASEO, ["agent", "stop", agentId]);
   await paseo.agents.ref(agentId).send("Continue with the approved plan.");
 }
 
