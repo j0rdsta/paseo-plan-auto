@@ -1,6 +1,8 @@
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
-import type { PaseoApi } from "@getpaseo/client";
+import type { PluginHandlerContext } from "@getpaseo/plugin/server";
+
+type PaseoApi = PluginHandlerContext["paseo"];
 
 const run = promisify(execFile);
 const PASEO = process.env.PASEO_CLI || "paseo";
