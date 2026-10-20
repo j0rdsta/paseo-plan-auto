@@ -2,6 +2,12 @@
   "name": "paseo-plan-auto",
   "private": true,
   "version": "0.0.0",
+  "description": "Switches Claude agents to Auto mode instead of Accept File Edits after you approve a plan.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/j0rdsta/paseo-plan-auto.git"
+  },
   "files": [
     "paseo-plugin.json",
     "OVERVIEW.md",

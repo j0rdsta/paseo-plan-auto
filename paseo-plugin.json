@@ -4,5 +4,6 @@
   "requirements": {
     "paseo": ">=0.11.4"
   },
-  "name": "Plan to Auto"
+  "name": "Plan to Auto",
+  "description": "Switches Claude agents to Auto mode instead of Accept File Edits after you approve a plan."
 }
